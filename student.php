@@ -53,9 +53,12 @@
         <div class="row d-flex justify-content-center">
             
             <div class="col-12">
-              <button class="btn btn-outline-dark" type="submit" name="logout">Log out</button>
+            <form method="post">
+              <button class="btn btn-outline-dark mx-3" type="submit" name="logout">Log out</button>
+            </form>
               <a class="btn btn-outline-success" style="margin: 10px;" href="StudentList.php">Add New</a>
             </div>
+
           
                
         </div>
